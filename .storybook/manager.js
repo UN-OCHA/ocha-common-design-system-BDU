@@ -7,33 +7,33 @@ const ochaTheme = create({
   // Brand
   brandTitle: 'OCHA Design System — Common Design',
   brandUrl: 'https://brand.unocha.org',
-  brandImage: './ocha-logo-white.svg',
+  brandImage: './ocha-logo-horizontal-white.svg',
   brandTarget: '_blank',
 
-  // Sidebar
-  colorPrimary: '#009EDB',
-  colorSecondary: '#0077B8',
+  // Sidebar / accents
+  colorPrimary: '#FFFFFF',
+  colorSecondary: '#FFFFFF',
 
-  // UI
-  appBg: '#002E6E',
+  // UI — OCHA Blue (UN Blue) background
+  appBg: '#009EDB',
   appContentBg: '#FFFFFF',
-  appBorderColor: '#004987',
+  appBorderColor: '#0077B8',
   appBorderRadius: 4,
 
-  // Text
-  textColor: '#FFFFFF',
-  textInverseColor: '#002E6E',
+  // Text — black on the OCHA Blue sidebar per brand request
+  textColor: '#000000',
+  textInverseColor: '#FFFFFF',
 
   // Toolbar
-  barTextColor: '#C5DFEF',
-  barSelectedColor: '#009EDB',
-  barHoverColor: '#64BDEA',
-  barBg: '#004987',
+  barTextColor: '#000000',
+  barSelectedColor: '#FFFFFF',
+  barHoverColor: '#FFFFFF',
+  barBg: '#009EDB',
 
   // Form
-  inputBg: '#0074B7',
-  inputBorder: '#004987',
-  inputTextColor: '#FFFFFF',
+  inputBg: '#FFFFFF',
+  inputBorder: '#0077B8',
+  inputTextColor: '#000000',
   inputBorderRadius: 4,
 });
 
